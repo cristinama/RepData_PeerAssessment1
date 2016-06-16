@@ -41,6 +41,11 @@ Read table:
 data <- read.csv("activity.csv", header = TRUE, sep = ',', colClasses = c("numeric", "character",         "integer"))
 ```
 
+
+$$\color{red}{\verb|read.csv("activity.csv", header = TRUE, sep = ',', colClasses = c("numeric", "character",         "integer"))|}$$
+
+
+
 2. Process/transform the data (if necessary) into a format suitable for your analysis
 
 First, change the date into dateformat using lubridate:
